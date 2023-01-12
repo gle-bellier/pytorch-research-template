@@ -11,13 +11,19 @@ It will include the following tools:
 
 ```
 _
-|_ configs
-|_ data
+|_ configs (include all config files)
+|_ dataset (include all raw and processed data files)
 |_ logs
 |_ src
-  |_ data
-  |_ models
+  |_ data (scripts for data pre/post processing and data handlers)
+    |_ datamodules (include pytorch datamodule)
+    |_ dataprocessors (include pytorch dataprocessors)
+    |_ transforms (include all data transforms)
+    |_ visualization (inlude tools for data analysis)
   |_ eval
+  |_ models
+    |_ blocks (all elementary neural network blocks)
+    |_ nn (all models)
   |_ train
   |_ utils
 |_ tests
