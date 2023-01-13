@@ -25,6 +25,7 @@ _
     |_ blocks (all elementary neural network blocks)
     |_ nn (all models)
   |_ train
+    |_ callbacks
   |_ utils
 |_ tests
 
